@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'VolunHub',
+  title: 'Engineering Camp',
   description: 'Platform pendaftaran dan aksi nyata volunteer',
 };
 
