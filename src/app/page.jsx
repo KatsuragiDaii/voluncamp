@@ -2,11 +2,15 @@ export default function Home() {
     return (
       <div className="min-h-screen font-sans bg-white">
         
-        {/* 1. TOP BAR */}
+        {/* 1. TOP BAR (Bagian Biru Paling Atas) */}
         <div className="bg-[#1e5b99] text-white px-6 py-2 flex flex-col sm:flex-row justify-between items-center text-sm">
           <div className="flex items-center gap-6">
-            <span className="flex items-center gap-2">✉ halo@volunhub.org</span>
-            <span className="flex items-center gap-2">📞 +62 812 3456 7890</span>
+            <span className="flex items-center gap-2">
+              ✉ halo@volunhub.org
+            </span>
+            <span className="flex items-center gap-2">
+              📞 +62 812 3456 7890
+            </span>
           </div>
           <div className="flex items-center gap-4 mt-2 sm:mt-0">
             <button className="bg-white text-[#1e5b99] px-4 py-1.5 rounded-full font-bold hover:bg-gray-100 transition">
@@ -28,9 +32,9 @@ export default function Home() {
           </div>
         </nav>
   
-        {/* 3. HERO SECTION */}
+        {/* 3. HERO SECTION (Teks Kiri & Background Full) */}
         <section className="relative h-[85vh] flex items-center">
-          {/* Background Image dengan Overlay */}
+          {/* Background Image dengan Overlay Gelap */}
           <div 
             className="absolute inset-0 z-0 bg-cover bg-center"
             style={{ backgroundImage: "url('https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=1470&auto=format&fit=crop')" }}
@@ -38,7 +42,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-black/40"></div>
           </div>
   
-          {/* Konten Teks & Tombol */}
+          {/* Konten Hero - Rata Kiri */}
           <div className="relative z-10 px-6 md:px-16 max-w-4xl">
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-8">
               Menyenangkan & <br/> Bermakna untuk <br/> Semua
@@ -48,11 +52,11 @@ export default function Home() {
             </button>
           </div>
   
-          {/* Titik Indikator Bawah (Dekorasi) */}
+          {/* Carousel Indicators (Titik di Bawah) */}
           <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-3 z-10">
-            <div className="w-3 h-3 rounded-full border-2 border-white bg-transparent"></div>
-            <div className="w-3 h-3 rounded-full border-2 border-white bg-white"></div>
-            <div className="w-3 h-3 rounded-full border-2 border-white bg-transparent"></div>
+            <div className="w-3 h-3 rounded-full border-2 border-white bg-transparent cursor-pointer"></div>
+            <div className="w-3 h-3 rounded-full border-2 border-white bg-white cursor-pointer"></div>
+            <div className="w-3 h-3 rounded-full border-2 border-white bg-transparent cursor-pointer"></div>
           </div>
         </section>
   
